@@ -6,23 +6,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class IndexUsuario extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_index_usuario);
     }
+    public void telaCadastroUsuario(View view){
 
-    public void telaIndexUsuario(View view){
-
-        Intent intent = new Intent(this, IndexUsuario.class);
+        Intent intent = new Intent(this, CadastroUsuario.class);
         startActivity(intent);
     }
 
-    public void telaIndexEmpresa(View view){
+    public void telaLoginUsuario(View view){
 
-        Intent intent = new Intent(this, IndexEmpresa.class);
+        Intent intent = new Intent(this, LoginUsuario.class);
         startActivity(intent);
     }
 }

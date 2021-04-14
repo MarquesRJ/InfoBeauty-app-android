@@ -1,28 +1,29 @@
 package com.example.infobeauty_app_android;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class IndexEmpresa extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_index_empresa);
     }
 
-    public void telaIndexUsuario(View view){
+    public void telaCadastroEmpresa(View view){
 
-        Intent intent = new Intent(this, IndexUsuario.class);
+        Intent intent = new Intent(this, CadastroEmpresa.class);
         startActivity(intent);
     }
 
-    public void telaIndexEmpresa(View view){
+    public void telaLoginEmpresa(View view){
 
-        Intent intent = new Intent(this, IndexEmpresa.class);
+        Intent intent = new Intent(this, LoginEmpresa.class);
         startActivity(intent);
     }
 }

@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InfoBeautyappandroid">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".CadastroEmpresa"></activity>
+        <activity android:name=".CadastroUsuario" />
+        <activity android:name=".Principal" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginUsuario" />
+        <activity android:name=".LoginEmpresa" />
+        <activity android:name=".IndexUsuario" />
+        <activity android:name=".IndexEmpresa" />
+        <activity android:name=".Splashscreen" />
     </application>
 
 </manifest>
