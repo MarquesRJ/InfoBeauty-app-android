@@ -1,8 +1,8 @@
 package com.example.infobeauty_app_android;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Principal extends AppCompatActivity {
@@ -12,8 +12,13 @@ public class Principal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
         //bottomNavigationView.backgroud = null;
-        // bottomNavigationView.menu.getItem( index: 2).isEnabled = false;
+        //bottomNavigationView.menu.getItem( index: 2).isEnabled = false;
+
+        //val bottomNavigationView = findViewById (R.id.bottomNavigationView);
+        //val navController = findNavController(R.id.fragment);
+        //val appBarConfiguration = appBarConfiguration(setOf(R.id.tela_home, R.id.tela_calendario));
+        //setupActionBarWithNavController(navController, appBarConfiguration);
+
+       //bottomNavigationView.setupWithNavController(navController);
     }
-
-
 }

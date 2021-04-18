@@ -31,5 +31,17 @@
         app:backgroundTint="#FFFFFF"
         app:layout_anchor="@id/bottomAppBar" />
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        app:defaultNavHost="true"
+        app:layout_ConstraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_ConstraintEnd_toEndOf="parent"
+        app:layout_ConstraitStart_toStartOf="parent"
+        app:layout_ConstraitTop_toTopOf="parent"
+        app:navGraph="@navigation/telas_navegar"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -5,19 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B5CCCB"
-    tools:context=".LoginUsuario"><![CDATA[
-
-
-
-    /src/main/res/layout/activity_login_usuario.xml
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
-
-
-
-
-
-    ]]>
+    tools:context=".LoginUsuario">
 
     <TextView
         android:id="@+id/textView11"
@@ -48,16 +36,7 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" /><![CDATA[
-=======
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.11" />
-
-    >>>>>>> remotes/MarquesRJ/master:app/src/main/res/layout/activity_login.xml
-
-
-
-    ]]>
+        app:layout_constraintVertical_bias="0.19" />
 
     <TextView
         android:id="@+id/textView2"
@@ -151,23 +130,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869" /><![CDATA[
-
-    /src/main/res/layout/activity_login_usuario.xml
-        app:layout_constraintBottom_toBottomOf="parent"
-=======
->>>>>>> remotes/MarquesRJ/master:app/src/main/res/layout/activity_login.xml
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/src/main/res/layout/activity_login_usuario.xml
-        app:layout_constraintVertical_bias="0.002"
-=======
->>>>>>> remotes/MarquesRJ/master:app/src/main/res/layout/activity_login.xml
-        app:srcCompat="@drawable/abc_vector_test" />
-
-]]>
+        app:layout_constraintVertical_bias="0.869" />
 </androidx.constraintlayout.widget.ConstraintLayout>

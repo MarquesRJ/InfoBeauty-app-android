@@ -15,13 +15,13 @@ public class IndexEmpresa extends AppCompatActivity {
         setContentView(R.layout.activity_index_empresa);
     }
 
-    public void telaCadastroEmpresa(View view){
+    public void telaCadastroEmpresa(View v){
 
         Intent intent = new Intent(this, CadastroEmpresa.class);
         startActivity(intent);
     }
 
-    public void telaLoginEmpresa(View view){
+    public void telaLoginEmpresa(View v){
 
         Intent intent = new Intent(this, LoginEmpresa.class);
         startActivity(intent);
