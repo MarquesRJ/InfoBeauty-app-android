@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/telas_navegar"
+    app:startDestination="@id/tela_home">
+
+    <fragment
+        android:id="@+id/tela_home"
+        android:name="com.example.infobeauty_app_android.tela_home"
+        android:label="Home"
+        tools:layout="@layout/fragment_tela_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/tela_calendario"
+        android:name="com.example.infobeauty_app_android.tela_calendario"
+        android:label="Calendario"
+        tools:layout="@layout/fragment_tela_calendario" />
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tela_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/miMen"
+        android:title="Men"
+        android:icon="@drawable/ic_men" />
+
+    <item android:id="@+id/miHome2"
+        android:title=""
+        />
+
+    <item android:id="@+id/miWoman"
+        android:title="Woman"
+        android:icon="@drawable/ic_woman" />
+
+    <item android:id="@+id/tela_calendario"
+        android:title="Calendar"
+        android:icon="@drawable/ic_calendar" />
+</menu>
