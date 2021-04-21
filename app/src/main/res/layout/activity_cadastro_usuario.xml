@@ -39,10 +39,10 @@
         app:layout_constraintVertical_bias="0.148" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/txtEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E-mail:"
+        android:text="E-mail"
         android:textColor="#605A58"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/editEmail_Tela_CadastroUsuario"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -68,10 +68,10 @@
         app:layout_constraintVertical_bias="0.372" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/txtCEP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CEP:"
+        android:text="CEP"
         android:textColor="#605A58"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.461" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/editCep_Tela_CadastroUsuario"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -97,10 +97,10 @@
         app:layout_constraintVertical_bias="0.513" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/txtSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Senha:"
+        android:text="Senha"
         android:textColor="#605A58"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.596" />
 
     <EditText
-        android:id="@+id/editTextTextPassword4"
+        android:id="@+id/editSenha_Tela_CadastroUsuario"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -126,10 +126,10 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/txtConfirme_Sua_Senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="confirme sua senha:"
+        android:text="confirme sua senha"
         android:textColor="#605A58"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +142,7 @@
         app:layout_constraintVertical_bias="0.727" />
 
     <EditText
-        android:id="@+id/editTextTextPassword5"
+        android:id="@+id/editConfirme_Sua_Senha_Tela_CadastroUsuario"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -155,7 +155,7 @@
         app:layout_constraintVertical_bias="0.788" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Botao_Cadastrar_Tela_CadastroUsuario"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:text="Cadastrar"
