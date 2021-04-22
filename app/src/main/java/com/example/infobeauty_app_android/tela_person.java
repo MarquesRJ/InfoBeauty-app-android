@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link tela_calendario#newInstance} factory method to
+ * Use the {@link tela_person#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class tela_calendario extends Fragment {
+public class tela_person extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class tela_calendario extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public tela_calendario() {
+    public tela_person() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class tela_calendario extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment tela_calendario.
+     * @return A new instance of fragment tela_person.
      */
     // TODO: Rename and change types and number of parameters
-    public static tela_calendario newInstance(String param1, String param2) {
-        tela_calendario fragment = new tela_calendario();
+    public static tela_person newInstance(String param1, String param2) {
+        tela_person fragment = new tela_person();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class tela_calendario extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tela_calendario, container, false);
+        return inflater.inflate(R.layout.fragment_tela_person, container, false);
     }
 }

@@ -2,7 +2,6 @@ package com.example.infobeauty_app_android;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.solver.state.State;
 import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.content.Intent;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -14,7 +13,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ConstraintLayout
+    //private ConstraintLayout layoutMain;
     private SQLiteDatabase conexao;
     private DadosOpenHelper dadosOpenHelper;
 
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
             conexao = dadosOpenHelper.getWritableDatabase();
 
-            Snackbar.make():
+            //Snackbar.make():
 
         }catch (SQLException ex){
 

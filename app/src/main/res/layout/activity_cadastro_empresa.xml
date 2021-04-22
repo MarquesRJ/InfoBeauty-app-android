@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B5CCCB"
-    tools:context=".CadastroEmpresa">
+    tools:context=".EntidadeEmpresa.CadastroEmpresa">
 
 
     <TextView
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.325" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editEmail_Tela_CadastroEmpresa"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.452" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/editCnpj_Tela_CadastroEmpresa"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.582" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editSenha_Tela_CadastroEmpresa"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -142,7 +142,7 @@
         app:layout_constraintVertical_bias="0.714" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/editSenhaConfirmar_Tela_CadastroEmpresa"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -155,7 +155,7 @@
         app:layout_constraintVertical_bias="0.775" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCadastrar_Empresa"
         android:layout_width="317dp"
         android:layout_height="49dp"
         android:text="Cadastrar"

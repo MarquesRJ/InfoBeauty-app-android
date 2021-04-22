@@ -11,10 +11,9 @@
         android:label="Home"
         tools:layout="@layout/fragment_tela_home" >
     </fragment>
-
     <fragment
-        android:id="@+id/tela_calendario"
-        android:name="com.example.infobeauty_app_android.tela_calendario"
-        android:label="Calendario"
-        tools:layout="@layout/fragment_tela_calendario" />
+        android:id="@+id/tela_person"
+        android:name="com.example.infobeauty_app_android.tela_person"
+        android:label="Person"
+        tools:layout="@layout/fragment_tela_person" />
 </navigation>

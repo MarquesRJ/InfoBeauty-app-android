@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.infobeauty_app_android.EntidadeUsuario.CadastroUsuario;
+
 public class IndexUsuario extends AppCompatActivity {
 
     @Override

@@ -12,7 +12,7 @@
         />
 
 
-    <item android:id="@+id/person_screen"
+    <item android:id="@+id/tela_person"
         android:title="Person"
         android:icon="@drawable/ic_person" />
 </menu>
